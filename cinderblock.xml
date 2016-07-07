@@ -12,6 +12,10 @@
         >
         <includePath system="true">/usr/local/include/libfreenect2</includePath>
         <platform os="macosx">
+            <dynamicLibrary>/usr/local/lib/libusb-1.0.0.dylib</dynamicLibrary>
+            <dynamicLibrary>/usr/local/lib/libusb-1.0.dylib</dynamicLibrary>
+            <staticLibrary>/usr/local/lib/libusb-1.0.a</staticLibrary>
+
             <dynamicLibrary>/usr/local/lib/libfreenect2.0.2.0.dylib</dynamicLibrary>
             <dynamicLibrary>/usr/local/lib/libfreenect2.0.2.dylib</dynamicLibrary>
             <dynamicLibrary>/usr/local/lib/libfreenect2.dylib</dynamicLibrary>
