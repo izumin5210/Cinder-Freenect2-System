@@ -10,6 +10,7 @@
         version="0.2.0"
         libraryUrl="http://github.com/OpenKinect/libfreenect2"
         >
+        <includePath system="true">/usr/local/include/libusb-1.0</includePath>
         <includePath system="true">/usr/local/include/libfreenect2</includePath>
         <includePath system="true">/usr/local/include/ni2</includePath>
         <includePath system="true">/usr/local/include/nite2</includePath>
