@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+    <block
+        name="libfreenect2"
+        id="info.izumin.cinder.freenect2.system"
+        author="Masayuki Izumi"
+        license="Apache 2.0"
+        summary="libfreenect2"
+        git="git://github.com/izumin5210/Cinder-Freenect2-System.git"
+        version="0.2.0"
+        libraryUrl="http://github.com/OpenKinect/libfreenect2"
+        >
+        <includePath system="true">/usr/local/include/libfreenect2</includePath>
+        <platform os="macosx">
+            <dynamicLibrary>/usr/local/lib/libfreenect2.0.2.0.dylib</dynamicLibrary>
+            <dynamicLibrary>/usr/local/lib/libfreenect2.0.2.dylib</dynamicLibrary>
+            <dynamicLibrary>/usr/local/lib/libfreenect2.dylib</dynamicLibrary>
+        </platform>
+    </block>
+</cinder>
